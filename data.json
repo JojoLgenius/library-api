@@ -1,43 +1,57 @@
 {
-  "users": [
-    {
-      "id": 1,
-      "name": "Ahsoka Tano"
-    },
-    {
-      "id": 2,
-      "name": "Obi-Wan Kenobi"
-    },
-    {
-      "id": 3,
-      "name": "Anakin Skywalker"
-    }
-  ],
-  "books": [
-    {
-      "id": 1,
-      "title": "The Force for dummies",
-      "author": "Yoda"
-    },
-    {
-      "id": 2,
-      "title": "Starship driving",
-      "author": "Cody"
-    },
-    {
-      "id": 3,
-      "title": "A good Jedi you'll become",
-      "author": "Yoda"
-    },
-    {
-      "id": 4,
-      "title": "Lightsaber training",
-      "author": "Mace Windu"
-    },
-    {
-      "id": 5,
-      "title": "A day on Coruscant",
-      "author": "Sheev Palpatine"
-    }
-  ]
+ "users": [
+  {
+   "id": 1,
+   "name": "Ahsoka Tano"
+  },
+  {
+   "id": 2,
+   "name": "Obi-Wan Kenobi"
+  },
+  {
+   "id": 3,
+   "name": "Anakin Skywalker"
+  }
+ ],
+ "books": [
+  {
+   "id": 1,
+   "title": "The Force for dummies",
+   "author": "Yoda"
+  },
+  {
+   "id": 2,
+   "title": "Starship driving",
+   "author": "Cody"
+  },
+  {
+   "id": 3,
+   "title": "A good Jedi you'll become",
+   "author": "Yoda"
+  },
+  {
+   "id": 4,
+   "title": "Lightsaber training",
+   "author": "Mace Windu"
+  },
+  {
+   "id": 5,
+   "title": "A day on Coruscant",
+   "author": "Sheev Palpatine"
+  }
+ ],
+ "loans": [
+  {
+   "id_user": 1,
+   "id_book": 1
+  },
+  {
+   "id_user": 1,
+   "id_book": 2
+  },
+  {
+   "id_user": 2,
+   "id_book": 3
+  }
+ ]
 }
